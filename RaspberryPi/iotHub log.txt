@@ -1,0 +1,341 @@
+    Properties: {}
+    Total calls confirmed: 107
+JSON payload = {"devicename": "aurora2","Temp": 20.00, "Humidity": 45.00}
+Send status: BUSY
+Error: Time:Fri Mar 15 17:02:39 2019 File:/usr/sdk/src/c/c-utility/src/base64.c Func:Base64_Decoder Line:201 Invalid length Base64 string!
+Error: Time:Fri Mar 15 17:02:39 2019 File:/usr/sdk/src/c/c-utility/src/sastoken.c Func:construct_sas_token Line:217 Unable to decode the key for generating the SAS.
+Error: Time:Fri Mar 15 17:02:39 2019 File:/usr/sdk/src/c/iothub_client/src/iothub_client_authorization.c Func:IoTHubClient_Auth_Get_SasToken Line:460 Failed creating sas_token
+Error: Time:Fri Mar 15 17:02:39 2019 File:/usr/sdk/src/c/iothub_client/src/iothubtransport_mqtt_common.c Func:SendMqttConnectMsg Line:2058 failure getting sas token from IoTHubClient_Auth_Get_SasToken.
+Error: Time:Fri Mar 15 17:02:41 2019 File:/usr/sdk/src/c/c-utility/src/base64.c Func:Base64_Decoder Line:201 Invalid length Base64 string!
+Error: Time:Fri Mar 15 17:02:41 2019 File:/usr/sdk/src/c/c-utility/src/sastoken.c Func:construct_sas_token Line:217 Unable to decode the key for generating the SAS.
+Error: Time:Fri Mar 15 17:02:41 2019 File:/usr/sdk/src/c/iothub_client/src/iothub_client_authorization.c Func:IoTHubClient_Auth_Get_SasToken Line:460 Failed creating sas_token
+Error: Time:Fri Mar 15 17:02:41 2019 File:/usr/sdk/src/c/iothub_client/src/iothubtransport_mqtt_common.c Func:SendMqttConnectMsg Line:2058 failure getting sas token from IoTHubClient_Auth_Get_SasToken.
+Error: Time:Fri Mar 15 17:02:45 2019 File:/usr/sdk/src/c/c-utility/src/base64.c Func:Base64_Decoder Line:201 Invalid length Base64 string!
+Error: Time:Fri Mar 15 17:02:45 2019 File:/usr/sdk/src/c/c-utility/src/sastoken.c Func:construct_sas_token Line:217 Unable to decode the key for generating the SAS.
+Error: Time:Fri Mar 15 17:02:45 2019 File:/usr/sdk/src/c/iothub_client/src/iothub_client_authorization.c Func:IoTHubClient_Auth_Get_SasToken Line:460 Failed creating sas_token
+Error: Time:Fri Mar 15 17:02:45 2019 File:/usr/sdk/src/c/iothub_client/src/iothubtransport_mqtt_common.c Func:SendMqttConnectMsg Line:2058 failure getting sas token from IoTHubClient_Auth_Get_SasToken.
+Send status: BUSY
+^XError: Time:Fri Mar 15 17:02:53 2019 File:/usr/sdk/src/c/c-utility/src/base64.c Func:Base64_Decoder Line:201 Invalid length Base64 string!
+Error: Time:Fri Mar 15 17:02:53 2019 File:/usr/sdk/src/c/c-utility/src/sastoken.c Func:construct_sas_token Line:217 Unable to decode the key for generating the SAS.
+Error: Time:Fri Mar 15 17:02:53 2019 File:/usr/sdk/src/c/iothub_client/src/iothub_client_authorization.c Func:IoTHubClient_Auth_Get_SasToken Line:460 Failed creating sas_token
+Error: Time:Fri Mar 15 17:02:53 2019 File:/usr/sdk/src/c/iothub_client/src/iothubtransport_mqtt_common.c Func:SendMqttConnectMsg Line:2058 failure getting sas token from IoTHubClient_Auth_Get_SasToken.                                                                                                               ^CTraceback (most recent call last):
+  File "iotHub_client_dht11.py", line 127, in <module>
+    time.sleep(10)
+KeyboardInterrupt
+Confirmation[1] received for message with result = BECAUSE_DESTROY
+    message_id: message_1
+    correlation_id: correlation_1
+    Properties: {}
+    Total calls confirmed: 108
+pi@aurora:~/azure-iot-sdk-python/device/samples $ clear
+pi@aurora:~/azure-iot-sdk-python/device/samples $ python iotHub_client_dht11.py
+Sat, 16 Mar 2019 00:47:11 +0000
+Attempting a read of DHT11 1 on RasberryPi 3
+Call 1
+Temp=20.0*C  Humidity=44.0%
+JSON payload = {"devicename": "aurora2","Temp": 20.00, "Humidity": 44.00}
+Error: Time:Sat Mar 16 00:47:12 2019 File:/usr/sdk/src/c/c-utility/src/base64.c Func:Base64_Decoder Line:201 Invalid length Base64 string!
+Error: Time:Sat Mar 16 00:47:12 2019 File:/usr/sdk/src/c/c-utility/src/sastoken.c Func:construct_sas_token Line:217 Unable to decode the key for generating the SAS.
+Error: Time:Sat Mar 16 00:47:12 2019 File:/usr/sdk/src/c/iothub_client/src/iothub_client_authorization.c Func:IoTHubClient_Auth_Get_SasToken Line:460 Failed creating sas_token
+Error: Time:Sat Mar 16 00:47:12 2019 File:/usr/sdk/src/c/iothub_client/src/iothubtransport_mqtt_common.c Func:SendMqttConnectMsg Line:2058 failure getting sas token from IoTHubClient_Auth_Get_SasToken.
+Send status: BUSY
+Error: Time:Sat Mar 16 00:47:13 2019 File:/usr/sdk/src/c/c-utility/src/base64.c Func:Base64_Decoder Line:201 Invalid length Base64 string!
+Error: Time:Sat Mar 16 00:47:13 2019 File:/usr/sdk/src/c/c-utility/src/sastoken.c Func:construct_sas_token Line:217 Unable to decode the key for generating the SAS.
+Error: Time:Sat Mar 16 00:47:13 2019 File:/usr/sdk/src/c/iothub_client/src/iothub_client_authorization.c Func:IoTHubClient_Auth_Get_SasToken Line:460 Failed creating sas_token
+Error: Time:Sat Mar 16 00:47:13 2019 File:/usr/sdk/src/c/iothub_client/src/iothubtransport_mqtt_common.c Func:SendMqttConnectMsg Line:2058 failure getting sas token from IoTHubClient_Auth_Get_SasToken.
+Error: Time:Sat Mar 16 00:47:15 2019 File:/usr/sdk/src/c/c-utility/src/base64.c Func:Base64_Decoder Line:201 Invalid length Base64 string!
+Error: Time:Sat Mar 16 00:47:15 2019 File:/usr/sdk/src/c/c-utility/src/sastoken.c Func:construct_sas_token Line:217 Unable to decode the key for generating the SAS.
+Error: Time:Sat Mar 16 00:47:15 2019 File:/usr/sdk/src/c/iothub_client/src/iothub_client_authorization.c Func:IoTHubClient_Auth_Get_SasToken Line:460 Failed creating sas_token
+Error: Time:Sat Mar 16 00:47:15 2019 File:/usr/sdk/src/c/iothub_client/src/iothubtransport_mqtt_common.c Func:SendMqttConnectMsg Line:2058 failure getting sas token from IoTHubClient_Auth_Get_SasToken.
+Error: Time:Sat Mar 16 00:47:19 2019 File:/usr/sdk/src/c/c-utility/src/base64.c Func:Base64_Decoder Line:201 Invalid length Base64 string!
+Error: Time:Sat Mar 16 00:47:19 2019 File:/usr/sdk/src/c/c-utility/src/sastoken.c Func:construct_sas_token Line:217 Unable to decode the key for generating the SAS.
+Error: Time:Sat Mar 16 00:47:19 2019 File:/usr/sdk/src/c/iothub_client/src/iothub_client_authorization.c Func:IoTHubClient_Auth_Get_SasToken Line:460 Failed creating sas_token
+Error: Time:Sat Mar 16 00:47:19 2019 File:/usr/sdk/src/c/iothub_client/src/iothubtransport_mqtt_common.c Func:SendMqttConnectMsg Line:2058 failure getting sas token from IoTHubClient_Auth_Get_SasToken.
+^CTraceback (most recent call last):
+  File "iotHub_client_dht11.py", line 127, in <module>
+    time.sleep(10)
+KeyboardInterrupt
+Confirmation[1] received for message with result = BECAUSE_DESTROY
+    message_id: message_1
+    correlation_id: correlation_1
+    Properties: {}
+    Total calls confirmed: 1
+pi@aurora:~/azure-iot-sdk-python/device/samples $ sudo nano iotHub_client_dht11.py
+pi@aurora:~/azure-iot-sdk-python/device/samples $ python iotHub_client_dht11.py
+Sat, 16 Mar 2019 01:04:56 +0000
+Attempting a read of DHT11 1 on RasberryPi 3
+Call 1
+Temp=19.0*C  Humidity=32.0%
+Error: Time:Sat Mar 16 01:04:58 2019 File:/usr/sdk/src/c/iothub_client/src/iothub_client_core_ll.c Func:IoTHubClientCore_LL_CreateFromConnectionString Line:1473 deviceId is not found
+Error: Time:Sat Mar 16 01:04:58 2019 File:/usr/sdk/src/c/iothub_client/src/iothub_client_core.c Func:create_iothub_instance Line:941 Failure creating iothub handle
+Traceback (most recent call last):
+  File "iotHub_client_dht11.py", line 102, in <module>
+    iotHubClient = iothub_client_init()
+  File "iotHub_client_dht11.py", line 32, in iothub_client_init
+    iotHubClient = IoTHubClient(connection_string, protocol)
+iothub_client.iothub_client.IoTHubClientError: IoTHubClient.IoTHubClient, IoTHubClientResult.ERROR
+pi@aurora:~/azure-iot-sdk-python/device/samples $ python iotHub_client_dht11.py
+Sat, 16 Mar 2019 01:05:59 +0000
+Attempting a read of DHT11 1 on RasberryPi 3
+Call 1
+Temp=19.0*C  Humidity=33.0%
+Error: Time:Sat Mar 16 01:06:01 2019 File:/usr/sdk/src/c/iothub_client/src/iothub_client_core_ll.c Func:IoTHubClientCore_LL_CreateFromConnectionString Line:1473 deviceId is not found
+Error: Time:Sat Mar 16 01:06:01 2019 File:/usr/sdk/src/c/iothub_client/src/iothub_client_core.c Func:create_iothub_instance Line:941 Failure creating iothub handle
+Traceback (most recent call last):
+  File "iotHub_client_dht11.py", line 102, in <module>
+    iotHubClient = iothub_client_init()
+  File "iotHub_client_dht11.py", line 32, in iothub_client_init
+    iotHubClient = IoTHubClient(connection_string, protocol)
+iothub_client.iothub_client.IoTHubClientError: IoTHubClient.IoTHubClient, IoTHubClientResult.ERROR
+pi@aurora:~/azure-iot-sdk-python/device/samples $ sudo nano iotHub_client_dht11.py
+Use "fg" to return to nano.
+
+[1]+  Stopped                 sudo nano iotHub_client_dht11.py
+pi@aurora:~/azure-iot-sdk-python/device/samples $ sudo nano iotHub_client_dht11.py
+pi@aurora:~/azure-iot-sdk-python/device/samples $ python iotHub_client_dht11.py
+Sat, 16 Mar 2019 01:24:11 +0000
+Attempting a read of DHT11 1 on RasberryPi 3
+Call 1
+Temp=19.0*C  Humidity=32.0%
+JSON payload = {"devicename": "aurora2","Temp": 19.00, "Humidity": 32.00}
+Error: Time:Sat Mar 16 01:24:12 2019 File:/usr/sdk/src/c/c-utility/src/base64.c Func:Base64_Decoder Line:201 Invalid length Base64 string!
+Error: Time:Sat Mar 16 01:24:12 2019 File:/usr/sdk/src/c/c-utility/src/sastoken.c Func:construct_sas_token Line:217 Unable to decode the key for generating the SAS.
+Error: Time:Sat Mar 16 01:24:12 2019 File:/usr/sdk/src/c/iothub_client/src/iothub_client_authorization.c Func:IoTHubClient_Auth_Get_SasToken Line:460 Failed creating sas_token
+Error: Time:Sat Mar 16 01:24:12 2019 File:/usr/sdk/src/c/iothub_client/src/iothubtransport_mqtt_common.c Func:SendMqttConnectMsg Line:2058 failure getting sas token from IoTHubClient_Auth_Get_SasToken.
+Send status: BUSY
+Error: Time:Sat Mar 16 01:24:13 2019 File:/usr/sdk/src/c/c-utility/src/base64.c Func:Base64_Decoder Line:201 Invalid length Base64 string!
+Error: Time:Sat Mar 16 01:24:13 2019 File:/usr/sdk/src/c/c-utility/src/sastoken.c Func:construct_sas_token Line:217 Unable to decode the key for generating the SAS.
+Error: Time:Sat Mar 16 01:24:13 2019 File:/usr/sdk/src/c/iothub_client/src/iothub_client_authorization.c Func:IoTHubClient_Auth_Get_SasToken Line:460 Failed creating sas_token
+Error: Time:Sat Mar 16 01:24:13 2019 File:/usr/sdk/src/c/iothub_client/src/iothubtransport_mqtt_common.c Func:SendMqttConnectMsg Line:2058 failure getting sas token from IoTHubClient_Auth_Get_SasToken.
+Error: Time:Sat Mar 16 01:24:15 2019 File:/usr/sdk/src/c/c-utility/src/base64.c Func:Base64_Decoder Line:201 Invalid length Base64 string!
+Error: Time:Sat Mar 16 01:24:15 2019 File:/usr/sdk/src/c/c-utility/src/sastoken.c Func:construct_sas_token Line:217 Unable to decode the key for generating the SAS.
+Error: Time:Sat Mar 16 01:24:15 2019 File:/usr/sdk/src/c/iothub_client/src/iothub_client_authorization.c Func:IoTHubClient_Auth_Get_SasToken Line:460 Failed creating sas_token
+Error: Time:Sat Mar 16 01:24:15 2019 File:/usr/sdk/src/c/iothub_client/src/iothubtransport_mqtt_common.c Func:SendMqttConnectMsg Line:2058 failure getting sas token from IoTHubClient_Auth_Get_SasToken.
+Error: Time:Sat Mar 16 01:24:19 2019 File:/usr/sdk/src/c/c-utility/src/base64.c Func:Base64_Decoder Line:201 Invalid length Base64 string!
+Error: Time:Sat Mar 16 01:24:19 2019 File:/usr/sdk/src/c/c-utility/src/sastoken.c Func:construct_sas_token Line:217 Unable to decode the key for generating the SAS.
+Error: Time:Sat Mar 16 01:24:19 2019 File:/usr/sdk/src/c/iothub_client/src/iothub_client_authorization.c Func:IoTHubClient_Auth_Get_SasToken Line:460 Failed creating sas_token
+Error: Time:Sat Mar 16 01:24:19 2019 File:/usr/sdk/src/c/iothub_client/src/iothubtransport_mqtt_common.c Func:SendMqttConnectMsg Line:2058 failure getting sas token from IoTHubClient_Auth_Get_SasToken.
+Send status: BUSY
+Error: Time:Sat Mar 16 01:24:27 2019 File:/usr/sdk/src/c/c-utility/src/base64.c Func:Base64_Decoder Line:201 Invalid length Base64 string!
+Error: Time:Sat Mar 16 01:24:27 2019 File:/usr/sdk/src/c/c-utility/src/sastoken.c Func:construct_sas_token Line:217 Unable to decode the key for generating the SAS.
+Error: Time:Sat Mar 16 01:24:27 2019 File:/usr/sdk/src/c/iothub_client/src/iothub_client_authorization.c Func:IoTHubClient_Auth_Get_SasToken Line:460 Failed creating sas_token
+Error: Time:Sat Mar 16 01:24:27 2019 File:/usr/sdk/src/c/iothub_client/src/iothubtransport_mqtt_common.c Func:SendMqttConnectMsg Line:2058 failure getting sas token from IoTHubClient_Auth_Get_SasToken.
+Send status: BUSY
+Sat, 16 Mar 2019 01:24:42 +0000
+Attempting a read of DHT11 1 on RasberryPi 3
+Error: Time:Sat Mar 16 01:24:43 2019 File:/usr/sdk/src/c/c-utility/src/base64.c Func:Base64_Decoder Line:201 Invalid length Base64 string!
+Error: Time:Sat Mar 16 01:24:43 2019 File:/usr/sdk/src/c/c-utility/src/sastoken.c Func:construct_sas_token Line:217 Unable to decode the key for generating the SAS.
+Error: Time:Sat Mar 16 01:24:43 2019 File:/usr/sdk/src/c/iothub_client/src/iothub_client_authorization.c Func:IoTHubClient_Auth_Get_SasToken Line:460 Failed creating sas_token
+Error: Time:Sat Mar 16 01:24:43 2019 File:/usr/sdk/src/c/iothub_client/src/iothubtransport_mqtt_common.c Func:SendMqttConnectMsg Line:2058 failure getting sas token from IoTHubClient_Auth_Get_SasToken.
+Call 2
+Temp=19.0*C  Humidity=32.0%
+Error: Time:Sat Mar 16 01:24:43 2019 File:/usr/sdk/src/c/c-utility/src/base64.c Func:Base64_Decoder Line:201 Invalid length Base64 string!
+Error: Time:Sat Mar 16 01:24:43 2019 File:/usr/sdk/src/c/c-utility/src/sastoken.c Func:construct_sas_token Line:217 Unable to decode the key for generating the SAS.
+Error: Time:Sat Mar 16 01:24:43 2019 File:/usr/sdk/src/c/iothub_client/src/iothub_client_authorization.c Func:IoTHubClient_Auth_Get_SasToken Line:460 Failed creating sas_token
+Error: Time:Sat Mar 16 01:24:43 2019 File:/usr/sdk/src/c/iothub_client/src/iothubtransport_mqtt_common.c Func:SendMqttConnectMsg Line:2058 failure getting sas token from IoTHubClient_Auth_Get_SasToken.
+Confirmation[1] received for message with result = BECAUSE_DESTROY
+    message_id: message_1
+    correlation_id: correlation_1
+    Properties: {}
+    Total calls confirmed: 1
+JSON payload = {"devicename": "aurora2","Temp": 19.00, "Humidity": 32.00}
+Send status: BUSY
+Error: Time:Sat Mar 16 01:24:44 2019 File:/usr/sdk/src/c/c-utility/src/base64.c Func:Base64_Decoder Line:201 Invalid length Base64 string!
+Error: Time:Sat Mar 16 01:24:44 2019 File:/usr/sdk/src/c/c-utility/src/sastoken.c Func:construct_sas_token Line:217 Unable to decode the key for generating the SAS.
+Error: Time:Sat Mar 16 01:24:44 2019 File:/usr/sdk/src/c/iothub_client/src/iothub_client_authorization.c Func:IoTHubClient_Auth_Get_SasToken Line:460 Failed creating sas_token
+Error: Time:Sat Mar 16 01:24:44 2019 File:/usr/sdk/src/c/iothub_client/src/iothubtransport_mqtt_common.c Func:SendMqttConnectMsg Line:2058 failure getting sas token from IoTHubClient_Auth_Get_SasToken.
+Error: Time:Sat Mar 16 01:24:46 2019 File:/usr/sdk/src/c/c-utility/src/base64.c Func:Base64_Decoder Line:201 Invalid length Base64 string!
+Error: Time:Sat Mar 16 01:24:46 2019 File:/usr/sdk/src/c/c-utility/src/sastoken.c Func:construct_sas_token Line:217 Unable to decode the key for generating the SAS.
+Error: Time:Sat Mar 16 01:24:46 2019 File:/usr/sdk/src/c/iothub_client/src/iothub_client_authorization.c Func:IoTHubClient_Auth_Get_SasToken Line:460 Failed creating sas_token
+Error: Time:Sat Mar 16 01:24:46 2019 File:/usr/sdk/src/c/iothub_client/src/iothubtransport_mqtt_common.c Func:SendMqttConnectMsg Line:2058 failure getting sas token from IoTHubClient_Auth_Get_SasToken.
+Error: Time:Sat Mar 16 01:24:50 2019 File:/usr/sdk/src/c/c-utility/src/base64.c Func:Base64_Decoder Line:201 Invalid length Base64 string!
+Error: Time:Sat Mar 16 01:24:50 2019 File:/usr/sdk/src/c/c-utility/src/sastoken.c Func:construct_sas_token Line:217 Unable to decode the key for generating the SAS.
+Error: Time:Sat Mar 16 01:24:50 2019 File:/usr/sdk/src/c/iothub_client/src/iothub_client_authorization.c Func:IoTHubClient_Auth_Get_SasToken Line:460 Failed creating sas_token
+Error: Time:Sat Mar 16 01:24:50 2019 File:/usr/sdk/src/c/iothub_client/src/iothubtransport_mqtt_common.c Func:SendMqttConnectMsg Line:2058 failure getting sas token from IoTHubClient_Auth_Get_SasToken.
+Send status: BUSY
+Error: Time:Sat Mar 16 01:24:58 2019 File:/usr/sdk/src/c/c-utility/src/base64.c Func:Base64_Decoder Line:201 Invalid length Base64 string!
+Error: Time:Sat Mar 16 01:24:58 2019 File:/usr/sdk/src/c/c-utility/src/sastoken.c Func:construct_sas_token Line:217 Unable to decode the key for generating the SAS.
+Error: Time:Sat Mar 16 01:24:58 2019 File:/usr/sdk/src/c/iothub_client/src/iothub_client_authorization.c Func:IoTHubClient_Auth_Get_SasToken Line:460 Failed creating sas_token
+Error: Time:Sat Mar 16 01:24:58 2019 File:/usr/sdk/src/c/iothub_client/src/iothubtransport_mqtt_common.c Func:SendMqttConnectMsg Line:2058 failure getting sas token from IoTHubClient_Auth_Get_SasToken.
+Send status: BUSY
+Sat, 16 Mar 2019 01:25:13 +0000
+Attempting a read of DHT11 1 on RasberryPi 3
+Call 3
+Temp=19.0*C  Humidity=32.0%
+Error: Time:Sat Mar 16 01:25:13 2019 File:/usr/sdk/src/c/c-utility/src/base64.c Func:Base64_Decoder Line:201 Invalid length Base64 string!
+Error: Time:Sat Mar 16 01:25:13 2019 File:/usr/sdk/src/c/c-utility/src/sastoken.c Func:construct_sas_token Line:217 Unable to decode the key for generating the SAS.
+Error: Time:Sat Mar 16 01:25:13 2019 File:/usr/sdk/src/c/iothub_client/src/iothub_client_authorization.c Func:IoTHubClient_Auth_Get_SasToken Line:460 Failed creating sas_token
+Error: Time:Sat Mar 16 01:25:13 2019 File:/usr/sdk/src/c/iothub_client/src/iothubtransport_mqtt_common.c Func:SendMqttConnectMsg Line:2058 failure getting sas token from IoTHubClient_Auth_Get_SasToken.
+Confirmation[1] received for message with result = BECAUSE_DESTROY
+    message_id: message_1
+    correlation_id: correlation_1
+    Properties: {}
+    Total calls confirmed: 2
+JSON payload = {"devicename": "aurora2","Temp": 19.00, "Humidity": 32.00}
+Send status: BUSY
+Error: Time:Sat Mar 16 01:25:14 2019 File:/usr/sdk/src/c/c-utility/src/base64.c Func:Base64_Decoder Line:201 Invalid length Base64 string!
+Error: Time:Sat Mar 16 01:25:14 2019 File:/usr/sdk/src/c/c-utility/src/sastoken.c Func:construct_sas_token Line:217 Unable to decode the key for generating the SAS.
+Error: Time:Sat Mar 16 01:25:14 2019 File:/usr/sdk/src/c/iothub_client/src/iothub_client_authorization.c Func:IoTHubClient_Auth_Get_SasToken Line:460 Failed creating sas_token
+Error: Time:Sat Mar 16 01:25:14 2019 File:/usr/sdk/src/c/iothub_client/src/iothubtransport_mqtt_common.c Func:SendMqttConnectMsg Line:2058 failure getting sas token from IoTHubClient_Auth_Get_SasToken.
+Error: Time:Sat Mar 16 01:25:16 2019 File:/usr/sdk/src/c/c-utility/src/base64.c Func:Base64_Decoder Line:201 Invalid length Base64 string!
+Error: Time:Sat Mar 16 01:25:16 2019 File:/usr/sdk/src/c/c-utility/src/sastoken.c Func:construct_sas_token Line:217 Unable to decode the key for generating the SAS.
+Error: Time:Sat Mar 16 01:25:16 2019 File:/usr/sdk/src/c/iothub_client/src/iothub_client_authorization.c Func:IoTHubClient_Auth_Get_SasToken Line:460 Failed creating sas_token
+Error: Time:Sat Mar 16 01:25:16 2019 File:/usr/sdk/src/c/iothub_client/src/iothubtransport_mqtt_common.c Func:SendMqttConnectMsg Line:2058 failure getting sas token from IoTHubClient_Auth_Get_SasToken.
+Error: Time:Sat Mar 16 01:25:20 2019 File:/usr/sdk/src/c/c-utility/src/base64.c Func:Base64_Decoder Line:201 Invalid length Base64 string!
+Error: Time:Sat Mar 16 01:25:20 2019 File:/usr/sdk/src/c/c-utility/src/sastoken.c Func:construct_sas_token Line:217 Unable to decode the key for generating the SAS.
+Error: Time:Sat Mar 16 01:25:20 2019 File:/usr/sdk/src/c/iothub_client/src/iothub_client_authorization.c Func:IoTHubClient_Auth_Get_SasToken Line:460 Failed creating sas_token
+Error: Time:Sat Mar 16 01:25:20 2019 File:/usr/sdk/src/c/iothub_client/src/iothubtransport_mqtt_common.c Func:SendMqttConnectMsg Line:2058 failure getting sas token from IoTHubClient_Auth_Get_SasToken.
+Send status: BUSY
+Error: Time:Sat Mar 16 01:25:28 2019 File:/usr/sdk/src/c/c-utility/src/base64.c Func:Base64_Decoder Line:201 Invalid length Base64 string!
+Error: Time:Sat Mar 16 01:25:28 2019 File:/usr/sdk/src/c/c-utility/src/sastoken.c Func:construct_sas_token Line:217 Unable to decode the key for generating the SAS.
+Error: Time:Sat Mar 16 01:25:28 2019 File:/usr/sdk/src/c/iothub_client/src/iothub_client_authorization.c Func:IoTHubClient_Auth_Get_SasToken Line:460 Failed creating sas_token
+Error: Time:Sat Mar 16 01:25:28 2019 File:/usr/sdk/src/c/iothub_client/src/iothubtransport_mqtt_common.c Func:SendMqttConnectMsg Line:2058 failure getting sas token from IoTHubClient_Auth_Get_SasToken.
+Send status: BUSY
+Sat, 16 Mar 2019 01:25:43 +0000
+Attempting a read of DHT11 1 on RasberryPi 3
+Error: Time:Sat Mar 16 01:25:44 2019 File:/usr/sdk/src/c/c-utility/src/base64.c Func:Base64_Decoder Line:201 Invalid length Base64 string!
+Error: Time:Sat Mar 16 01:25:44 2019 File:/usr/sdk/src/c/c-utility/src/sastoken.c Func:construct_sas_token Line:217 Unable to decode the key for generating the SAS.
+Error: Time:Sat Mar 16 01:25:44 2019 File:/usr/sdk/src/c/iothub_client/src/iothub_client_authorization.c Func:IoTHubClient_Auth_Get_SasToken Line:460 Failed creating sas_token
+Error: Time:Sat Mar 16 01:25:44 2019 File:/usr/sdk/src/c/iothub_client/src/iothubtransport_mqtt_common.c Func:SendMqttConnectMsg Line:2058 failure getting sas token from IoTHubClient_Auth_Get_SasToken.
+Call 4
+Temp=19.0*C  Humidity=32.0%
+Error: Time:Sat Mar 16 01:25:44 2019 File:/usr/sdk/src/c/c-utility/src/base64.c Func:Base64_Decoder Line:201 Invalid length Base64 string!
+Error: Time:Sat Mar 16 01:25:44 2019 File:/usr/sdk/src/c/c-utility/src/sastoken.c Func:construct_sas_token Line:217 Unable to decode the key for generating the SAS.
+Error: Time:Sat Mar 16 01:25:44 2019 File:/usr/sdk/src/c/iothub_client/src/iothub_client_authorization.c Func:IoTHubClient_Auth_Get_SasToken Line:460 Failed creating sas_token
+Error: Time:Sat Mar 16 01:25:44 2019 File:/usr/sdk/src/c/iothub_client/src/iothubtransport_mqtt_common.c Func:SendMqttConnectMsg Line:2058 failure getting sas token from IoTHubClient_Auth_Get_SasToken.
+Confirmation[1] received for message with result = BECAUSE_DESTROY
+    message_id: message_1
+    correlation_id: correlation_1
+    Properties: {}
+    Total calls confirmed: 3
+JSON payload = {"devicename": "aurora2","Temp": 19.00, "Humidity": 32.00}
+Send status: BUSY
+Error: Time:Sat Mar 16 01:25:45 2019 File:/usr/sdk/src/c/c-utility/src/base64.c Func:Base64_Decoder Line:201 Invalid length Base64 string!
+Error: Time:Sat Mar 16 01:25:45 2019 File:/usr/sdk/src/c/c-utility/src/sastoken.c Func:construct_sas_token Line:217 Unable to decode the key for generating the SAS.
+Error: Time:Sat Mar 16 01:25:45 2019 File:/usr/sdk/src/c/iothub_client/src/iothub_client_authorization.c Func:IoTHubClient_Auth_Get_SasToken Line:460 Failed creating sas_token
+Error: Time:Sat Mar 16 01:25:45 2019 File:/usr/sdk/src/c/iothub_client/src/iothubtransport_mqtt_common.c Func:SendMqttConnectMsg Line:2058 failure getting sas token from IoTHubClient_Auth_Get_SasToken.
+Error: Time:Sat Mar 16 01:25:47 2019 File:/usr/sdk/src/c/c-utility/src/base64.c Func:Base64_Decoder Line:201 Invalid length Base64 string!
+Error: Time:Sat Mar 16 01:25:47 2019 File:/usr/sdk/src/c/c-utility/src/sastoken.c Func:construct_sas_token Line:217 Unable to decode the key for generating the SAS.
+Error: Time:Sat Mar 16 01:25:47 2019 File:/usr/sdk/src/c/iothub_client/src/iothub_client_authorization.c Func:IoTHubClient_Auth_Get_SasToken Line:460 Failed creating sas_token
+Error: Time:Sat Mar 16 01:25:47 2019 File:/usr/sdk/src/c/iothub_client/src/iothubtransport_mqtt_common.c Func:SendMqttConnectMsg Line:2058 failure getting sas token from IoTHubClient_Auth_Get_SasToken.
+Error: Time:Sat Mar 16 01:25:51 2019 File:/usr/sdk/src/c/c-utility/src/base64.c Func:Base64_Decoder Line:201 Invalid length Base64 string!
+Error: Time:Sat Mar 16 01:25:51 2019 File:/usr/sdk/src/c/c-utility/src/sastoken.c Func:construct_sas_token Line:217 Unable to decode the key for generating the SAS.
+Error: Time:Sat Mar 16 01:25:51 2019 File:/usr/sdk/src/c/iothub_client/src/iothub_client_authorization.c Func:IoTHubClient_Auth_Get_SasToken Line:460 Failed creating sas_token
+Error: Time:Sat Mar 16 01:25:51 2019 File:/usr/sdk/src/c/iothub_client/src/iothubtransport_mqtt_common.c Func:SendMqttConnectMsg Line:2058 failure getting sas token from IoTHubClient_Auth_Get_SasToken.
+Send status: BUSY
+Error: Time:Sat Mar 16 01:25:59 2019 File:/usr/sdk/src/c/c-utility/src/base64.c Func:Base64_Decoder Line:201 Invalid length Base64 string!
+Error: Time:Sat Mar 16 01:25:59 2019 File:/usr/sdk/src/c/c-utility/src/sastoken.c Func:construct_sas_token Line:217 Unable to decode the key for generating the SAS.
+Error: Time:Sat Mar 16 01:25:59 2019 File:/usr/sdk/src/c/iothub_client/src/iothub_client_authorization.c Func:IoTHubClient_Auth_Get_SasToken Line:460 Failed creating sas_token
+Error: Time:Sat Mar 16 01:25:59 2019 File:/usr/sdk/src/c/iothub_client/src/iothubtransport_mqtt_common.c Func:SendMqttConnectMsg Line:2058 failure getting sas token from IoTHubClient_Auth_Get_SasToken.
+Send status: BUSY
+Sat, 16 Mar 2019 01:26:14 +0000
+Attempting a read of DHT11 1 on RasberryPi 3
+Error: Time:Sat Mar 16 01:26:15 2019 File:/usr/sdk/src/c/c-utility/src/base64.c Func:Base64_Decoder Line:201 Invalid length Base64 string!
+Error: Time:Sat Mar 16 01:26:15 2019 File:/usr/sdk/src/c/c-utility/src/sastoken.c Func:construct_sas_token Line:217 Unable to decode the key for generating the SAS.
+Error: Time:Sat Mar 16 01:26:15 2019 File:/usr/sdk/src/c/iothub_client/src/iothub_client_authorization.c Func:IoTHubClient_Auth_Get_SasToken Line:460 Failed creating sas_token
+Error: Time:Sat Mar 16 01:26:15 2019 File:/usr/sdk/src/c/iothub_client/src/iothubtransport_mqtt_common.c Func:SendMqttConnectMsg Line:2058 failure getting sas token from IoTHubClient_Auth_Get_SasToken.
+Call 5
+Temp=19.0*C  Humidity=33.0%
+Error: Time:Sat Mar 16 01:26:15 2019 File:/usr/sdk/src/c/c-utility/src/base64.c Func:Base64_Decoder Line:201 Invalid length Base64 string!
+Error: Time:Sat Mar 16 01:26:15 2019 File:/usr/sdk/src/c/c-utility/src/sastoken.c Func:construct_sas_token Line:217 Unable to decode the key for generating the SAS.
+Error: Time:Sat Mar 16 01:26:15 2019 File:/usr/sdk/src/c/iothub_client/src/iothub_client_authorization.c Func:IoTHubClient_Auth_Get_SasToken Line:460 Failed creating sas_token
+Error: Time:Sat Mar 16 01:26:15 2019 File:/usr/sdk/src/c/iothub_client/src/iothubtransport_mqtt_common.c Func:SendMqttConnectMsg Line:2058 failure getting sas token from IoTHubClient_Auth_Get_SasToken.
+Confirmation[1] received for message with result = BECAUSE_DESTROY
+    message_id: message_1
+    correlation_id: correlation_1
+    Properties: {}
+    Total calls confirmed: 4
+JSON payload = {"devicename": "aurora2","Temp": 19.00, "Humidity": 33.00}
+Send status: BUSY
+Error: Time:Sat Mar 16 01:26:16 2019 File:/usr/sdk/src/c/c-utility/src/base64.c Func:Base64_Decoder Line:201 Invalid length Base64 string!
+Error: Time:Sat Mar 16 01:26:16 2019 File:/usr/sdk/src/c/c-utility/src/sastoken.c Func:construct_sas_token Line:217 Unable to decode the key for generating the SAS.
+Error: Time:Sat Mar 16 01:26:16 2019 File:/usr/sdk/src/c/iothub_client/src/iothub_client_authorization.c Func:IoTHubClient_Auth_Get_SasToken Line:460 Failed creating sas_token
+Error: Time:Sat Mar 16 01:26:16 2019 File:/usr/sdk/src/c/iothub_client/src/iothubtransport_mqtt_common.c Func:SendMqttConnectMsg Line:2058 failure getting sas token from IoTHubClient_Auth_Get_SasToken.
+Error: Time:Sat Mar 16 01:26:18 2019 File:/usr/sdk/src/c/c-utility/src/base64.c Func:Base64_Decoder Line:201 Invalid length Base64 string!
+Error: Time:Sat Mar 16 01:26:18 2019 File:/usr/sdk/src/c/c-utility/src/sastoken.c Func:construct_sas_token Line:217 Unable to decode the key for generating the SAS.
+Error: Time:Sat Mar 16 01:26:18 2019 File:/usr/sdk/src/c/iothub_client/src/iothub_client_authorization.c Func:IoTHubClient_Auth_Get_SasToken Line:460 Failed creating sas_token
+Error: Time:Sat Mar 16 01:26:18 2019 File:/usr/sdk/src/c/iothub_client/src/iothubtransport_mqtt_common.c Func:SendMqttConnectMsg Line:2058 failure getting sas token from IoTHubClient_Auth_Get_SasToken.
+Error: Time:Sat Mar 16 01:26:22 2019 File:/usr/sdk/src/c/c-utility/src/base64.c Func:Base64_Decoder Line:201 Invalid length Base64 string!
+Error: Time:Sat Mar 16 01:26:22 2019 File:/usr/sdk/src/c/c-utility/src/sastoken.c Func:construct_sas_token Line:217 Unable to decode the key for generating the SAS.
+Error: Time:Sat Mar 16 01:26:22 2019 File:/usr/sdk/src/c/iothub_client/src/iothub_client_authorization.c Func:IoTHubClient_Auth_Get_SasToken Line:460 Failed creating sas_token
+Error: Time:Sat Mar 16 01:26:22 2019 File:/usr/sdk/src/c/iothub_client/src/iothubtransport_mqtt_common.c Func:SendMqttConnectMsg Line:2058 failure getting sas token from IoTHubClient_Auth_Get_SasToken.
+Send status: BUSY
+Error: Time:Sat Mar 16 01:26:30 2019 File:/usr/sdk/src/c/c-utility/src/base64.c Func:Base64_Decoder Line:201 Invalid length Base64 string!
+Error: Time:Sat Mar 16 01:26:30 2019 File:/usr/sdk/src/c/c-utility/src/sastoken.c Func:construct_sas_token Line:217 Unable to decode the key for generating the SAS.
+Error: Time:Sat Mar 16 01:26:30 2019 File:/usr/sdk/src/c/iothub_client/src/iothub_client_authorization.c Func:IoTHubClient_Auth_Get_SasToken Line:460 Failed creating sas_token
+Error: Time:Sat Mar 16 01:26:30 2019 File:/usr/sdk/src/c/iothub_client/src/iothubtransport_mqtt_common.c Func:SendMqttConnectMsg Line:2058 failure getting sas token from IoTHubClient_Auth_Get_SasToken.
+Send status: BUSY
+Sat, 16 Mar 2019 01:26:45 +0000
+Attempting a read of DHT11 1 on RasberryPi 3
+Call 6
+Temp=19.0*C  Humidity=33.0%
+Error: Time:Sat Mar 16 01:26:45 2019 File:/usr/sdk/src/c/c-utility/src/base64.c Func:Base64_Decoder Line:201 Invalid length Base64 string!
+Error: Time:Sat Mar 16 01:26:45 2019 File:/usr/sdk/src/c/c-utility/src/sastoken.c Func:construct_sas_token Line:217 Unable to decode the key for generating the SAS.
+Error: Time:Sat Mar 16 01:26:45 2019 File:/usr/sdk/src/c/iothub_client/src/iothub_client_authorization.c Func:IoTHubClient_Auth_Get_SasToken Line:460 Failed creating sas_token
+Error: Time:Sat Mar 16 01:26:45 2019 File:/usr/sdk/src/c/iothub_client/src/iothubtransport_mqtt_common.c Func:SendMqttConnectMsg Line:2058 failure getting sas token from IoTHubClient_Auth_Get_SasToken.
+Confirmation[1] received for message with result = BECAUSE_DESTROY
+    message_id: message_1
+    correlation_id: correlation_1
+    Properties: {}
+    Total calls confirmed: 5
+JSON payload = {"devicename": "aurora2","Temp": 19.00, "Humidity": 33.00}
+Send status: BUSY
+Error: Time:Sat Mar 16 01:26:46 2019 File:/usr/sdk/src/c/c-utility/src/base64.c Func:Base64_Decoder Line:201 Invalid length Base64 string!
+Error: Time:Sat Mar 16 01:26:46 2019 File:/usr/sdk/src/c/c-utility/src/sastoken.c Func:construct_sas_token Line:217 Unable to decode the key for generating the SAS.
+Error: Time:Sat Mar 16 01:26:46 2019 File:/usr/sdk/src/c/iothub_client/src/iothub_client_authorization.c Func:IoTHubClient_Auth_Get_SasToken Line:460 Failed creating sas_token
+Error: Time:Sat Mar 16 01:26:46 2019 File:/usr/sdk/src/c/iothub_client/src/iothubtransport_mqtt_common.c Func:SendMqttConnectMsg Line:2058 failure getting sas token from IoTHubClient_Auth_Get_SasToken.
+Error: Time:Sat Mar 16 01:26:48 2019 File:/usr/sdk/src/c/c-utility/src/base64.c Func:Base64_Decoder Line:201 Invalid length Base64 string!
+Error: Time:Sat Mar 16 01:26:48 2019 File:/usr/sdk/src/c/c-utility/src/sastoken.c Func:construct_sas_token Line:217 Unable to decode the key for generating the SAS.
+Error: Time:Sat Mar 16 01:26:48 2019 File:/usr/sdk/src/c/iothub_client/src/iothub_client_authorization.c Func:IoTHubClient_Auth_Get_SasToken Line:460 Failed creating sas_token
+Error: Time:Sat Mar 16 01:26:48 2019 File:/usr/sdk/src/c/iothub_client/src/iothubtransport_mqtt_common.c Func:SendMqttConnectMsg Line:2058 failure getting sas token from IoTHubClient_Auth_Get_SasToken.
+Error: Time:Sat Mar 16 01:26:52 2019 File:/usr/sdk/src/c/c-utility/src/base64.c Func:Base64_Decoder Line:201 Invalid length Base64 string!
+Error: Time:Sat Mar 16 01:26:52 2019 File:/usr/sdk/src/c/c-utility/src/sastoken.c Func:construct_sas_token Line:217 Unable to decode the key for generating the SAS.
+Error: Time:Sat Mar 16 01:26:52 2019 File:/usr/sdk/src/c/iothub_client/src/iothub_client_authorization.c Func:IoTHubClient_Auth_Get_SasToken Line:460 Failed creating sas_token
+Error: Time:Sat Mar 16 01:26:52 2019 File:/usr/sdk/src/c/iothub_client/src/iothubtransport_mqtt_common.c Func:SendMqttConnectMsg Line:2058 failure getting sas token from IoTHubClient_Auth_Get_SasToken.
+Send status: BUSY
+Error: Time:Sat Mar 16 01:27:00 2019 File:/usr/sdk/src/c/c-utility/src/base64.c Func:Base64_Decoder Line:201 Invalid length Base64 string!
+Error: Time:Sat Mar 16 01:27:00 2019 File:/usr/sdk/src/c/c-utility/src/sastoken.c Func:construct_sas_token Line:217 Unable to decode the key for generating the SAS.
+Error: Time:Sat Mar 16 01:27:00 2019 File:/usr/sdk/src/c/iothub_client/src/iothub_client_authorization.c Func:IoTHubClient_Auth_Get_SasToken Line:460 Failed creating sas_token
+Error: Time:Sat Mar 16 01:27:00 2019 File:/usr/sdk/src/c/iothub_client/src/iothubtransport_mqtt_common.c Func:SendMqttConnectMsg Line:2058 failure getting sas token from IoTHubClient_Auth_Get_SasToken.
+Send status: BUSY
+Sat, 16 Mar 2019 01:27:15 +0000
+Attempting a read of DHT11 1 on RasberryPi 3
+Error: Time:Sat Mar 16 01:27:16 2019 File:/usr/sdk/src/c/c-utility/src/base64.c Func:Base64_Decoder Line:201 Invalid length Base64 string!
+Error: Time:Sat Mar 16 01:27:16 2019 File:/usr/sdk/src/c/c-utility/src/sastoken.c Func:construct_sas_token Line:217 Unable to decode the key for generating the SAS.
+Error: Time:Sat Mar 16 01:27:16 2019 File:/usr/sdk/src/c/iothub_client/src/iothub_client_authorization.c Func:IoTHubClient_Auth_Get_SasToken Line:460 Failed creating sas_token
+Error: Time:Sat Mar 16 01:27:16 2019 File:/usr/sdk/src/c/iothub_client/src/iothubtransport_mqtt_common.c Func:SendMqttConnectMsg Line:2058 failure getting sas token from IoTHubClient_Auth_Get_SasToken.
+Call 7
+Temp=19.0*C  Humidity=33.0%
+Error: Time:Sat Mar 16 01:27:16 2019 File:/usr/sdk/src/c/c-utility/src/base64.c Func:Base64_Decoder Line:201 Invalid length Base64 string!
+Error: Time:Sat Mar 16 01:27:16 2019 File:/usr/sdk/src/c/c-utility/src/sastoken.c Func:construct_sas_token Line:217 Unable to decode the key for generating the SAS.
+Error: Time:Sat Mar 16 01:27:16 2019 File:/usr/sdk/src/c/iothub_client/src/iothub_client_authorization.c Func:IoTHubClient_Auth_Get_SasToken Line:460 Failed creating sas_token
+Error: Time:Sat Mar 16 01:27:16 2019 File:/usr/sdk/src/c/iothub_client/src/iothubtransport_mqtt_common.c Func:SendMqttConnectMsg Line:2058 failure getting sas token from IoTHubClient_Auth_Get_SasToken.
+Confirmation[1] received for message with result = BECAUSE_DESTROY
+    message_id: message_1
+    correlation_id: correlation_1
+    Properties: {}
+    Total calls confirmed: 6
+JSON payload = {"devicename": "aurora2","Temp": 19.00, "Humidity": 33.00}
+Send status: BUSY
+Error: Time:Sat Mar 16 01:27:17 2019 File:/usr/sdk/src/c/c-utility/src/base64.c Func:Base64_Decoder Line:201 Invalid length Base64 string!
+Error: Time:Sat Mar 16 01:27:17 2019 File:/usr/sdk/src/c/c-utility/src/sastoken.c Func:construct_sas_token Line:217 Unable to decode the key for generating the SAS.
+Error: Time:Sat Mar 16 01:27:17 2019 File:/usr/sdk/src/c/iothub_client/src/iothub_client_authorization.c Func:IoTHubClient_Auth_Get_SasToken Line:460 Failed creating sas_token
+Error: Time:Sat Mar 16 01:27:17 2019 File:/usr/sdk/src/c/iothub_client/src/iothubtransport_mqtt_common.c Func:SendMqttConnectMsg Line:2058 failure getting sas token from IoTHubClient_Auth_Get_SasToken.
+Error: Time:Sat Mar 16 01:27:19 2019 File:/usr/sdk/src/c/c-utility/src/base64.c Func:Base64_Decoder Line:201 Invalid length Base64 string!
+Error: Time:Sat Mar 16 01:27:19 2019 File:/usr/sdk/src/c/c-utility/src/sastoken.c Func:construct_sas_token Line:217 Unable to decode the key for generating the SAS.
+Error: Time:Sat Mar 16 01:27:19 2019 File:/usr/sdk/src/c/iothub_client/src/iothub_client_authorization.c Func:IoTHubClient_Auth_Get_SasToken Line:460 Failed creating sas_token
+Error: Time:Sat Mar 16 01:27:19 2019 File:/usr/sdk/src/c/iothub_client/src/iothubtransport_mqtt_common.c Func:SendMqttConnectMsg Line:2058 failure getting sas token from IoTHubClient_Auth_Get_SasToken.
+Error: Time:Sat Mar 16 01:27:23 2019 File:/usr/sdk/src/c/c-utility/src/base64.c Func:Base64_Decoder Line:201 Invalid length Base64 string!
+Error: Time:Sat Mar 16 01:27:23 2019 File:/usr/sdk/src/c/c-utility/src/sastoken.c Func:construct_sas_token Line:217 Unable to decode the key for generating the SAS.
+Error: Time:Sat Mar 16 01:27:23 2019 File:/usr/sdk/src/c/iothub_client/src/iothub_client_authorization.c Func:IoTHubClient_Auth_Get_SasToken Line:460 Failed creating sas_token
+Error: Time:Sat Mar 16 01:27:23 2019 File:/usr/sdk/src/c/iothub_client/src/iothubtransport_mqtt_common.c Func:SendMqttConnectMsg Line:2058 failure getting sas token from IoTHubClient_Auth_Get_SasToken.
+^CTraceback (most recent call last):
+  File "iotHub_client_dht11.py", line 127, in <module>
+    time.sleep(10)
+KeyboardInterrupt
+Confirmation[1] received for message with result = BECAUSE_DESTROY
+    message_id: message_1
+    correlation_id: correlation_1
+    Properties: {}
+    Total calls confirmed: 7
+pi@aurora:~/azure-iot-sdk-python/device/samples $
